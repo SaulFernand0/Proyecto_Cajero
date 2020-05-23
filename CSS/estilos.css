@@ -122,20 +122,26 @@ body{
 }
 
 #cancel{
-    background-color: rgb(197, 16, 16);
+    background-color: rgb(238, 25, 25);
     color: white;
 }    
 #clear{
-    background-color: rgb(187, 138, 15);
+    background-color: rgb(252, 182, 6);
     color: white;
 } 
 #ok{
-    background-color: green;
+    background-color: rgb(7, 202, 7);
     color: white;
 }
 #void{
     border: none;
     background-color: rgb(175, 175, 175);
+}
+
+.opciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*
