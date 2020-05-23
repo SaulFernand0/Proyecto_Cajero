@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.caja_principal{
+    width: 640px;
+    height: 530px;
+    background-color: rgb(156, 156, 156);
+    background-image: linear-gradient(to bottom, rgb(139, 139, 139), rgb(153, 150, 150));
+    margin: auto;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Bloque Superior */
+.caja_superior{
+    width: 610px;
+    height: 290px;
+    padding: 0px 15px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pantalla{
+    width: 420px;
+    height: 235px;
+    background-image:linear-gradient(to bottom,rgb(250, 250, 98),rgb(255, 246, 163) ) ;
+    margin: 5px 10px 5px 10px;
+    border: rgb(97, 96, 96) 10px solid;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 20px;
+}
+
+#titulo{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+/* Botones laterales*/
+.botones_top{
+    flex-direction: column;
+    width: 55px;
+    height: 31px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    border-radius: 7px;
+    border: rgb(44, 44, 44) 1.5px solid;
+    background-image: linear-gradient(to top, black, rgb(97, 97, 97));
+}
+
+#izquierda{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#derecha{
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* caja contraseña*/
+#password{
+    width: 250px;
+    padding: 5px 5px 5px 5px;
+    margin-top: 8px;
+    border: rgb(255, 196, 0) 2.5px solid;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+
+/* Bloque Inferior*/
+
+/* Boton numeros*/
+.caja_inferior{
+    width: 610px;
+    height: 220px;
+    padding: 0px 15px 10px 15px;
+    display: flex;
+}
+.teclas{
+    width: 190px;
+    height: 350;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.boton_numero{
+    width: 48px;
+    height: 40px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 7px;
+    border: black 2px solid;
+    background-image: linear-gradient(to top, rgb(161, 161, 161), white);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Boton opciones */
+.boton_opcion{
+    width: 96px;
+    height: 40px;
+    border-radius: 7px;
+    border: black 2px solid;
+    margin: 5px 5px 5px 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#cancel{
+    background-color: rgb(197, 16, 16);
+    color: white;
+}    
+#clear{
+    background-color: rgb(187, 138, 15);
+    color: white;
+} 
+#ok{
+    background-color: green;
+    color: white;
+}
+#void{
+    border: none;
+    background-color: rgb(175, 175, 175);
+}
+
+/*
+.cajita{
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    background-color: black;
+}

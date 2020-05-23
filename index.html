@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <div class="caja_principal">
+        <div class="caja_superior">
+
+            <div id="izquierda">
+                <button id="boton1" class="botones_top"><img src="iconos/izquierda.png" alt=""></button>
+                <button id="boton2" class="botones_top"><img src="iconos/izquierda.png" alt=""></button>
+                <button id="boton3" class="botones_top"><img src="iconos/izquierda.png" alt=""></button>
+            </div>
+
+            <div id="pantalla">
+                <p id="titulo">¡Bienvenido al banco!</p> 
+                Porfavor dijite su clave
+                <input id="password" type="password" maxlength=6>
+            </div>
+
+                <div id="derecha">
+                    <button id="boton4" class="botones_top"><img src="iconos/derecha.png" alt=""></button>
+                    <button id="boton5" class="botones_top"><img src="iconos/derecha.png" alt=""></button>
+                    <button id="boton6" class="botones_top"><img src="iconos/derecha.png" alt=""></button>
+                    <button id="boton7" class="botones_top"><img src="iconos/derecha.png" alt=""></button>
+                </div>
+        </div>
+
+        <div class="caja_inferior">
+            <div class="teclas">
+                <button id="n1" class="boton_numero">1</button>
+                <button id="n2" class="boton_numero">2</button>
+                <button id="n3" class="boton_numero">3</button>
+                <button id="n4" class="boton_numero">4</button>
+                <button id="n5" class="boton_numero">5</button>
+                <button id="n6" class="boton_numero">6</button>
+                <button id="n7" class="boton_numero">7</button>
+                <button id="n8" class="boton_numero">8</button>
+                <button id="n9" class="boton_numero">9</button>
+                <button id="n10" class="boton_numero"></button>
+                <button id="n11" class="boton_numero">0</button>
+                <button id="n12" class="boton_numero">.</button>
+            </div>
+                <article id="opciones">
+                    <button id="cancel" class="boton_opcion">CANCEL</button>
+                    <button id="clear" class="boton_opcion">CLEAR</button>
+                    <button id="ok" class="boton_opcion">OK</button>
+                    <button id="void" class="boton_opcion"></button>
+                </article>
+
+            <section>
+                <div class="cajita"></div>
+            </section>
+        </div>
+    </div>
+    
+</body>
+<script src="js/teclas.js"></script>
+<script src="js/cancel.js"></script>
+<script src="js/clear.js"></script>
+<script src="js/ok.js"></script>
+</html>
