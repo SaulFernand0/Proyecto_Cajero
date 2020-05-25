@@ -2,17 +2,15 @@ contraseña = "123456";
 
 function ok(){
     document.getElementById("password").value;
-    if(document.getElementById("password").value  == contraseña){
-       alert("contraseña correcta. Bienvenido");
+    if(document.getElementById("password").value  == contraseña){    
+       document.getElementById("alerta").style.display = 'Block';
        MenuPrincipal();
     }else{
         document.getElementById("password").value = "";
-        alert("contraseña incorrecta")
+        document.getElementById("alerta1").style.display = 'Block';
     }
 }
 
 function MenuPrincipal(){
     window.location = "MenuPrincipal.html";
 }
-
-var saldo = 7000;
