@@ -3,7 +3,7 @@ contraseña = "123456";
 function ok(){
     document.getElementById("password").value;
     if(document.getElementById("password").value  == contraseña){
-       alert("contraseña correcta");
+       alert("contraseña correcta. Bienvenido");
        MenuPrincipal();
     }else{
         document.getElementById("password").value = "";
@@ -14,3 +14,5 @@ function ok(){
 function MenuPrincipal(){
     window.location = "MenuPrincipal.html";
 }
+
+var saldo = 7000;

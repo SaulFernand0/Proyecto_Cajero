@@ -1,3 +1,3 @@
 function cancel(){
-    document.getElementById("password").value = "";
+    window.location = "MenuPrincipal.html";
 }
