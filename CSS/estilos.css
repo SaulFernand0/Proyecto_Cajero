@@ -322,7 +322,7 @@ padding-top: 160px;
 }
 
 .titulo2{
-    margin-left: 140px;
+    margin-left: 90px;
     color: brown;
     font-family: Arial;
     font-weight: 900;
@@ -428,19 +428,19 @@ padding-top: 160px;
 .oc1{
     margin-left: 30px;
     position: absolute;
-    margin-top: 115px;
+    margin-top: 130px;
 }
 
 .oc2{
     margin-left: 45px;
     position: absolute;
-    margin-top: 160px;
+    margin-top: 175px;
 }
 
 .oc3{
     margin-left: 40px;
     position: absolute;
-    margin-top: 250px;
+    margin-top: 265px;
 }
 
 /* Pantalla 6*/
@@ -518,4 +518,209 @@ padding-top: 160px;
     font-weight: bolder;
     font-family: Arial;
     font-size: 10px; 
+}
+
+/* Pantalla Consulta*/
+
+.titulo7{
+    position: absolute;
+    margin-left: 105px;
+    color: brown;
+    font-weight: 900;
+    font-family: Arial;
+    font-size: 30px; 
+}
+
+.subtitulo1{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: brown;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 25px; 
+}
+
+.opc1{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 340px;
+    color: brown;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px; 
+}
+
+/* Pantalla retiro dolares*/
+
+.retirodolares{
+    color: brown;
+    font-family: Arial;
+    font-weight: bold;
+    vertical-align: baseline;
+    font-size: 20px
+}
+
+.titulo8{
+    position: absolute;
+    margin-left: 70px;
+    color: brown;
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 30px 
+}
+
+#colum_izquierda2{
+    padding-top: 60px;
+    margin-right: auto;
+}
+
+#colum_derecha2{
+    margin-top: -110px;
+    margin-left: 270px;
+}
+
+.d1{
+    margin-left: auto;
+    position: absolute;
+    margin-top: 8px;
+}
+
+.d2{
+    margin-left: auto;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.d3{
+    margin-left: auto;
+    position: absolute;
+    margin-top: 95px;
+}
+
+.d4{
+    margin-left: 95px;
+    position: absolute;
+    margin-top: 120px;
+}
+
+.d5{
+    margin-left: 95px;
+    position: absolute;
+    margin-top: 160px;
+}
+
+.d6{
+    margin-left: -50px;
+    position: absolute;
+    margin-top: 205px;
+}
+
+.d7{
+    margin-left: 45px;
+    position: absolute;
+    margin-top: 250px;
+}
+
+/* otras cantidades dolares */
+
+.otrascantidades_dolares{
+    color: brown;
+    font-family: Arial;
+    font-weight: bold;
+    vertical-align: baseline;
+    font-size: 20px
+}
+
+.titulo9{
+    margin-left: 20px;
+    color: brown;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px 
+}
+
+.caja_dolares{
+    color: brown;
+    font-size: 30px;
+    height: 30px;
+    width: 200px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 75px;
+    border: none;
+    background-color: rgb(240, 229, 132);   
+}
+
+.simbolo_dolares{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: 39px;
+}
+
+#colum_derecha4{
+    margin-top: -90px;
+    margin-left: 270px;
+}
+
+.ocd1{
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 115px;
+}
+
+.ocd2{
+    margin-left: 45px;
+    position: absolute;
+    margin-top: 155px;
+}
+
+.ocd3{
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 245px;
+}
+
+/* transaccion procesada dolares */
+
+.titulo10{
+    position: absolute;
+    margin-left: 60px;
+    color: brown;
+    font-weight: 900;
+    font-family: Arial;
+    font-size: 20px 
+}
+
+.subtitulo2{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 5px;
+    color: brown;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px 
+}
+
+#colum_derecha5{
+    color: brown;
+    font-family: Arial;
+    font-weight: bold;
+    vertical-align: baseline;
+    font-size: 20px
+}
+
+.otd1{
+    margin-left: 400px;
+    position: absolute;
+    margin-top: 160px;
+}
+
+.otd2{
+    margin-left: 390px;
+    position: absolute;
+    margin-top: 200px;
 }

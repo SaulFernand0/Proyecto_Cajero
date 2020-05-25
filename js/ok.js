@@ -6,8 +6,7 @@ function ok(){
        alert("contraseña correcta");
        MenuPrincipal();
     }else{
-        document.getElementById("password");
-        document.value = "";
+        document.getElementById("password").value = "";
         alert("contraseña incorrecta")
     }
 }
